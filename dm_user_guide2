@@ -24,7 +24,36 @@ Imagine
   that you stop talking on terms of files and start talking about concepts
   that you could establish relations between one concepts on your own way
 
-maybe then you could see what is in your mind, it sounds kind of cool, right? well that is what Deepamehta enables you to do, or at least is on it's way to do it :-) ... 
+maybe then you could see what is in your mind, it sounds kind of cool, right? well that is what Deepamehta enables you to do, to forget about a working context based on applications and tree structured folders and to draw your way of thinking, well at least is on it's way to do it :-) ... 
 
-  
+** it sounds confusing, how can I draw my mind?
+
+Yes, maybe at first it almost sounds like science-fiction, but that is how things evolve, first imagine them, then do them, as if it were that easy :-D
+
+But let's stop talking and begin to see how DM works.
+
+In the guide we won't cover the installation process, because that is already very good explained in the README file [https://github.com/jri/deepamehta#readme]. Here we will just remind you the way to start DM, it depends on your platform
+
+deepamehta-linux.sh         # if you are under a GNU/Linux system choose "Run in terminal"
+deepamehta-macosx.command   # if you are under MacOS double-click it
+deepamehta-windows.bat      # if you are under Windows double-click it
+
+
+So now you should be seeing this
+
+[dm_1.png]
+
+Just to dive better in DM, a suggestion is to set your browser to full screen, so you enter in DM mode ;-)
+
+We are not going to log in for the moment, so let's see what's on the screen. The screen is divided in three parts, a toolbar on the top, a right panel and a left panel. This screen divided in three is called the Deepamehta Webclient, and is the standard user interface for DM.
+
+Before explaining each of them, we'll introduce a few DM concepts, the basic ones, the ones you are going to use all the time.
+
+Workspace, which is the more general container of the information that you are going to have. You will be able to define as many        Workspaces as you want, you will be able to share "things" between workspaces. 
+
+Topic map, is part of a Workspace and for the moment let's say is the visualization of the information that is important to you in the current moment.
+
+So the toolbar in the top part  allows you to select and perform various operations. If you are not logged in,  you will be able to select your Workspace, your topic map, to search by name or by type an item that you know, access the help and the link to log in.
+
+Then the panel on the left hand side will be where you will visualize your topic maps and on the right hand side, you will see the content and details of the topic map.
  
