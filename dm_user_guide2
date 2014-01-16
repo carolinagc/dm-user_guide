@@ -55,5 +55,53 @@ Topic map, is part of a Workspace and for the moment let's say is the visualizat
 
 So the toolbar in the top part  allows you to select and perform various operations. If you are not logged in,  you will be able to select your Workspace, your topic map, to search by name or by type an item that you know, access the help and the link to log in.
 
-Then the panel on the left hand side will be where you will visualize your topic maps and on the right hand side, you will see the content and details of the topic map.
+Summing up the panel on the left hand side will be where you will visualize your topic maps and on the right hand side, you will see the content and details of the topic map.
+
+If you are not logged in, you will see the last topic map you were and you will be able to switch to different topic maps or workspaces and also to search for any kind of item that is in your DM world.
+
+Now we'll log in to do some stuff, click on the login link and introduce "admin" as user and leave the password blank
+
+Before we have said that in DM we could see what is in our mind, let's check how can we do that. We were saying that for us the right place to put the keys is with the socks, let's build a simple sentence with it's subject and verb.
+
+Tina has keys are in the drawer that contains socks.
+
+This can be turned into 3 sentences.
+
+Tina has keys.
+Key are in a drawer
+A drawer contains socks
+
+So there we have 3 subjects of the sentence and 3 verbs.
+
+In DM the subjects are called topics and the verbs are called associations.
+
+Topics represent any concept, from people, countries, and organizations to software modules, individual files, and events, 
+Associations represent relationships between topics
+
+Maybe it could look something like this
+
+[dm_example01.png]
+
+
+How to do it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
