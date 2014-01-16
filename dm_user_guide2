@@ -5,8 +5,8 @@ Since user guides tend to be boring to write and then boring to read, we've trie
 
 **Just imagine the computer would let you do what you want....
 
-Normally when we think about things we make certain relations that for us are obvious, of course that I put the keys with the socks and  obviously the health care card is in the fridge  .. we know that we are not going to leave home without socks, so each time you pick some socks you will see the keys and since the fridge is full of healthy stuff that is the right place for the health care card to be.
-Each one of us, make our own connections full of sense to us, so once we have made this connections we don't have to make an effort to think where to look for the keys or the health care card, our brain is quite happy not to be stressed by the fact of having to search all over the place for the keys or the health care card, it's able to go automatically to the right place. Less stress for the brain, less stress for us, the happier we are :-)
+Normally when we think about things we make certain relations that for us are obvious, of course that I put the spare keys with the socks and  obviously the health care card is in the fridge  .. we know that we are not going to leave home without socks, so each time you pick some socks you will see where the spare keys are and since the fridge is full of healthy stuff that is the right place for the health care card to be.
+Each one of us, make our own connections full of sense to us, so once we have made this connections we don't have to make an effort to think where to look for the keys or the health care card, our brain is quite happy not to be stressed by the fact of having to search all over the place when we look for the spare keys set or the health care card, it's able to go automatically to the right place. Less stress for the brain, less stress for us, the happier we are :-)
 
 Probably you've chosen your connections based on some kind of situation, the last time you could not enter the house because you forgot the keys, you thought that if they had been with the socks you would not have forgotten them, clic! connection done.
 
@@ -83,10 +83,57 @@ Maybe it could look something like this
 [dm_example01.png]
 
 
-How to do it
+**How to do it
 
+Go to the toolbar and click on the "Create" drop down list, where you'll see 4 default topic types: 
+  Institution
+  Note
+  Person
+  Web resource
+  
+ Oh wait, we didn't talk about topic types yet!!
+ We've said that topics are concepts, and we group concepts by types.
+ 
+ Topic types are topics grouped by type.
+ 
+ So when we say that a topic type is "Institution" we are managing the general concept of Institution, that is a place or organization founded for a specific purpose. We can think that a hospital is an institution, a school is an institution, a theater is an institution. All of those places have a certain number of common features that define them, so in DM when you select the topic type "Institution" you'll see those common default features (a name, an address, a mail, a url). The same happens with the rest of topic types.
+ 
+ In our example we've created one topic type "Person", which is Tina. Tina is a person so it has certain common features with the rest of Humanity, a name, a last name, a phone, an email, a URL, an address (all optional). Then we've created 3 topic types "Note", which are kind of a wildcard, simple topics with a name and a description. 
+ 
+  
+ [dm_example03.png]
+ 
+ 
+ So now we have the topics but the topics alone don't make much sense, so we need to create the associations, that is how are those topics related.
+ 
+First we wanted to say that Tina has keys (specifically a spare set of keys), for that we have to right clic on topic Person Tina, where a menu with display and we will see the "Associate" option, we will clic on it
+ 
+  [dm_example04.png]
+  
+  
+A line will appear and you have "to take it" till the topic with which we want to create the association, in our case topic Person Tina has to be associated with Topic Note Keys
 
+   [dm_example05.png]
+ 
+ another cool thing we can do is to name the association, because associations are also editable, 
+ 
+ [dm_example06.png]
+ 
+ so that we can actually read the sentence that we have in our mind. As a practice, we will use verbs in infinitive, so that is general, in our case name this association "to have" 
+ 
+  [dm_example07.png]
 
+so now we can see "Tina has keys"
+
+  [dm_example08.png]
+  
+We proceed in the same way with the other topic types, we create the association between keys and drawer, and then between drawer and socks. So at the end we will have 
+
+ [dm_example02.png]
+ 
+ 
+
+so you are now creating your first topic map, cool!!!
 
 
 
