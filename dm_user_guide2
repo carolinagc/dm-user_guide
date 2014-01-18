@@ -183,13 +183,19 @@ We've said that our topic map shows only what we want to see depending on the mo
 On the detail panel scroll down (if necesary) untill you see a folder icon which is called like the folder where your photo was stored.
 In our case Deepamehta, click on the folder, and alehop!!! now it becomes visible what was hidden, the folder and its relation with the photo file of Tina.
 
+[dm_example15.png]
+
 Maybe you've already noticed that the association has a different color, now is green, while the ones that we've been creating was grey. Appart from beauty reason, it means that is a different type of relation, if you click on the association, you'll see that the association Type is Aggregation, while the others the association type was Association.
 
 Association Type Aggregation means 
 
 Now if you click on the folder itself, and you scroll down until you see Topic Type, you'll see it's a Folder and the Association Type that has been created is called "Instantiation".In case someone is not familiar with the term instantiation, it means that is a specific folder, there is the concept "Folder" and then there is the specific folder that you create with a specific name.  
 
+[dm_example16.png]
+
 Then if you click on Folder(here goes blue icon), you will see that it's Data Type is Composite, which means that is something composed of other things. In the case of "Folder" is a topic composed of "Folder content"+ "Folder name"+"Path", so each Folder topic will have a name, a content and a path.
+
+[dm_example17.png]
 
 
 *Remember*
