@@ -203,6 +203,60 @@ Then if you click on Folder(here goes blue icon), you will see that it's Data Ty
   Association Type Aggregation is
   Association Type Instantiation is
   
+Now take another sip of tea and let's continue.
+
+Thinking about socks, you've remembered that Tina had a nice friend with whom she works, Greg, who used really fancy socks, can't forget those one that stared at you, and he worked in a Bookshop. So we have
+
+Greg is a friend of Tina
+Greg has fancy socks
+Greg works in a Bookshop
+
+Let's just define that info in our topic map.
+
+Go to the toolbar, create Person, there you can fill in the Name with Greg and any other info that you may consider interesting.
+Then right click on Greg and create the association by dragging the line to Tina. As you know if you want to can name the association, we've named it "to be friends".
+
+
+[dm_example18.png]
+
+We were thinking about Greg because he had fancy socks, so let's put that in our topic map
+Ohh, yes we've already have socks in our topic map, so we just need to create a new association. Right click on Greg, click associate, drag to socks.
+
+[dm_example19.png]
+
+Ok, but I must say that till now we've been cheating a bit, just a bit. We've said that we used topic type Note, as a kind of wildcard, but well that is not 100% fair because a Note is a note, that has a title and a text, if you are thinking of a Note it won't have the form of a sock, it would be confusing. 
+
+[dm_example21.png]
+
+*Tip*
+You can resize the Detail Panel. You just need to put the mouse on the border between the two pannels and when appears (put here the icon) just drag the panel to the size you want.
+
+
+So time to create our own topic type "Socks" and redo things :)
+
+First delete your current "socks", right click on the topic type and click on delete, this means you will delete this instance from the whole of your DM world, you are getting rid of all the socks and their relations, so in general be careful when deleting, but sure you know the dangers of delete word :D
+
+[dm_example23.png]
+
+
+Go to the toolbar menu, down to where it says "New topic type", name it Socks, done!!
+
+[dm_example24.png]
+
+ now you have your class Socks, remember that the class is the abstract concept, so now you have defined the idea "Socks", so if you check Create drop down menu, you will see the new type that you just created "Socks", so if you click on it you will get an instance of socks.
+ 
+ [dm_example26.png] 
+ 
+We will need this instance of socks, to re-do the association between "drawer" (where Tina has her socks) and socks, and the Greg and socks.
+
+[dm_example28.png]
+
+Now, everything is nicer, you brain feels happier when seen that "socks" is an instance of "Socks" instead of "Note" :-). But you don't need to see the topic type Socks, so hide it. Right click on the topic type Socks, click on hide, and it and its association will be hidden.
+
+*Remember*
+  When deleting you are actually deleting your topic type instance from the whole DM world, not just from the topic map.
+  You can create New topic types. Your topic type can have one of the five following data types Boolean, Composite, HTML, Number, Text
+  
 
 
 
