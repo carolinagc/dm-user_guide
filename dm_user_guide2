@@ -239,11 +239,11 @@ First delete your current "socks", right click on the topic type and click on de
 [dm_example23.png]
 
 
-Go to the toolbar menu, down to where it says "New topic type", name it Socks, done!!
+Go to the toolbar menu, down to where it says "New topic type", name it Socks, choose a Data Type, for the moment we'll use Text, done!!
 
 [dm_example24.png]
 
- now you have your class Socks, remember that the class is the abstract concept, so now you have defined the idea "Socks", so if you check Create drop down menu, you will see the new type that you just created "Socks", so if you click on it you will get an instance of socks.
+ now you have your class Socks, remember that the class is the abstract concept, so now you have defined the idea "Socks", so if you check Create drop down menu, you will see the new type that you just created "Socks", so if you click on it you will get an instance of socks, this are your specific socks :)
  
  [dm_example26.png] 
  
