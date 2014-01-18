@@ -151,6 +151,10 @@ Go to the toolbar, click on the drop-down menu Create, there you will see "New F
 You will see that a lot of topics and associations begin to appear with each click you make, it's drawing the path that your brain is making while remembering how did you organize your files till it get's you to the photo. At some point, the canvas may "move down" to find space to draw everything, but one the canvas is infitive so there is no problem of space here :). Once you've selected the photo, you'll see it on the Detail Panel :). Now you can associate it with the topic type Person Tina, right click on the Photo associate and drag to topic type Person-Tina.
 
 
+*Tip*
+  If you want to move the canvas, so that you can see better the topic map, you just have to click on the canvas and drag it untill you locate the topic map where you want.
+
+
  [dm_example12.png]
 
 Ok, you've made the relation but now there are lot of topic and associations that you don't really want to see, so it's time to Hide things, right click on each of the topic and click on Hide, hidding the topic will hide also the association, if at some point you want to see the topic but not the association, you can right click on the association, click hide and then just the association will be hidden. 
@@ -174,18 +178,27 @@ Tea time!!! It's always good to let everything settle down, why not take a break
 [cup_of_tea_bagieu-bio.jpg]
 
 Now, after a break, let's go back a bit, and check a couple of things before continuing.
+
 We've said that our topic map shows only what we want to see depending on the moment, so let's make visible again the topics and relations that appeared when we added Tina's photo to the topic map. The photo was inside a folder, true? so click on the photo, the move your eyes to the Detail Panel, there we have quite a lot of information, that we are going to be understading little by little.
 On the detail panel scroll down (if necesary) untill you see a folder icon which is called like the folder where your photo was stored.
 In our case Deepamehta, click on the folder, and alehop!!! now it becomes visible what was hidden, the folder and its relation with the photo file of Tina.
 
 Maybe you've already noticed that the association has a different color, now is green, while the ones that we've been creating was grey. Appart from beauty reason, it means that is a different type of relation, if you click on the association, you'll see that the association Type is Aggregation, while the others the association type was Association.
 
-Association Type Aggregation means.....
+Association Type Aggregation means 
+
+Now if you click on the folder itself, and you scroll down until you see Topic Type, you'll see it's a Folder and the Association Type that has been created is called "Instantiation".In case someone is not familiar with the term instantiation, it means that is a specific folder, there is the concept "Folder" and then there is the specific folder that you create with a specific name.  
+
+Then if you click on Folder(here goes blue icon), you will see that it's Data Type is Composite, which means that is something composed of other things. In the case of "Folder" is a topic composed of "Folder content"+ "Folder name"+"Path", so each Folder topic will have a name, a content and a path.
 
 
+*Remember*
+  Data Type Composite is
+  Association Type Aggregation is
+  Association Type Instantiation is
+  
 
-*Tip*
-  If you want to move the canvas, so that you can see better the topic map, you just have to click on the canvas and drag it untill you locate the topic map where you want.
+
 
 
 
