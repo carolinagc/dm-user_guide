@@ -257,8 +257,37 @@ Now, everything is nicer, you brain feels happier when seen that "socks" is an i
   When deleting you are actually deleting your topic type instance from the whole DM world, not just from the topic map.
   You can create New topic types. Your topic type can have one of the five following data types Boolean, Composite, HTML, Number, Text
   
+Ok, but if we've created a new topic type Socks, maybe we should the same with drawer, finally it is not a Note.
+Let's think a bit what is a drawer, is "something" that is part of a chest of drawers and needs a furniture structure that can hold them. Then we need to create a new topic type "Chest" that is composed by two parts "Drawers" and "Furniture".
+To do that you create Chest with dataType Composite (check it in the Detail Panel)
+
+[dm_example29.png]
 
 
+then you can create Drawer and Furniture as topic type text and create also an association with the Chest that is Composition Definition.
+
+[dm_example30.png]
+
+Until now, we have just define the idea of what is a drawer as part of a chest, now we want to refer to Tina's drawer full of socks and keys. For that we need to go to the toolbar and select a topic type Drawer, and an instance will be generated, as you can see when looking at the Detail Panel, Tina's drawer is an instantiation of Drawer and DOUBT---> why topic type is also an association?? what did I do???
+
+[dm_example31.png]
+
+
+Delete time!!! ... now that we have nice drawer's that are part of a chest you can delete the Note-Drawer that we had, we can rid of it and re-do the associations with our new topic type, Tina's drawer.
+
+*Tip*
+
+Association lines colors
+  Grey - Association which is
+  Light blue - Instantiation that means
+  Green - Aggregation is
+  Red - Composition definition is
+  
+  
+  
+  
+  
+  
 
 
 
