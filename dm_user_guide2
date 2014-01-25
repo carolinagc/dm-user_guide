@@ -73,19 +73,26 @@ If you are not logged in, you will see the last topic map you were in and you wi
 Now we'll log in to do some stuff, click on the login link and introduce "admin" as user and leave the password blank
 
 
-Before we have said that in DM we could see what is in our mind, let's check how can we do that. We were saying that for us the right place to put the keys is with the socks, let's build a simple sentence with it's subject and verb.
+Before we have said that in DM we could see what is in our mind, let's check how can we do that.
 
-Tina has keys which are in the drawer that contains socks.
+****Our story is
+
+        Once Tina told us that she had decided to put the spare keys in a drawer that contains socks. 
+        That reminds us of Greg, who works with Tina in the Bookshop, and who loves weird socks.
+
+Then for Tina the right place to put the keys is with the socks, let's transform our story in simple sentences, with subject and verb.
+
+Tina has spare keys which are in the drawer that contains socks.
 
 This can be turned into 3 sentences.
 
-Tina has keys.
+Tina has keys
 Key are in a drawer
 A drawer contains socks
 
 So there we have 3 sentences with 3 subjects and 3 verbs.
 
-In DM the subjects are called topics and the verbs are called associations.
+[check]In DM the subjects are called topics and the verbs are called associations.
 
 *Remember* 
   Topics represent any concept, people, countries, organizations, software modules, individual files, events.
@@ -98,41 +105,44 @@ Maybe it could look something like this
 
 **How to do it
 
-Go to the toolbar and click on the "Create" drop down list, where you'll see 4 default topic types: 
+Go to the toolbar and click on the "Create" drop down list, where you'll see 4 default Topic Types: 
   Institution
   Note
   Person
   Web resource
   
- Oh wait, we didn't talk about topic types yet!!
- We've said that topics are concepts, and we group concepts by types.
+ Oh wait, we didn't talk about Topic Types yet!!
+ We've said that Topics are concepts, and we group concepts by types.
  
- Topic types are topics grouped by type.
+ Topic Types are topics grouped by type.
  
- So when we say that a topic type is "Institution" we are managing the general concept of Institution, that is a place or organization founded for a specific purpose. We can think that a hospital is an institution, a school is an institution, a theater is an institution. All of those places have a certain number of common features that define them, so in DM when you select the topic type "Institution" you'll see those common default features (a name, an address, a mail, a url). The same happens with the rest of topic types.
+ So when we say that a Topic Type is "Institution" we are managing the general concept of Institution, that is a place or organization founded for a specific purpose. We can think that a hospital is an institution, a school is an institution, a theater is an institution. All of those places have a certain number of common features that define them, so in DM when you select the Topic Type "Institution" you'll see those common default features (a name, an address, a mail, a url). The same happens with the rest of Topic Types.
  
- In our example we've created one topic type "Person", which is Tina. Tina is a person so it has certain common features with the rest of Humanity, a name, a last name, a phone, an email, a URL, an address (all optional). Then we've created 3 topic types "Note", which are kind of a wildcard, simple topics with a name and a description. 
+ In our example we've created one Topic Type "Person", which is Tina. Tina is a person so it has certain common features with the rest of Humanity, a name, a last name, a phone, an email, a URL, an address (all optional). We will say that Tina is an instance of a Person, that is she is a specific Person.
+ Then we've created 3 Topic Types "Note", which we are going to use as a kind of a wildcard, simple topics with a name and a description. Later we will improve this, but for a start we will do it this way.
+ 
+ This means that we have 4 isolated Topic Types  
  
   
  [dm_example03.png]
  
  
- So now we have the topics but the topics alone don't make much sense, so we need to create the associations, that is how are those topics related.
+ Isolated Topic Types don't make much sense, so we need to create the Associations, that is how Topic Types related.
  
-First we wanted to say that Tina has keys (specifically a spare set of keys), for that we have to right clic on topic Person Tina, where a menu with display and we will see the "Associate" option, we will clic on it
+First we wanted to say that Tina has keys (specifically a spare set of keys), for that we have to right clic on Topic Type "Person" Tina, where a menu will display and we will see the "Associate" option, we click on it
  
   [dm_example04.png]
   
   
-A line will appear and you have to drag it to the topic with which we want to create the association, in our case topic Person Tina has to be associated with Topic Note Keys
+A line will appear, drag it to the Topic Type with which is related, so an association is created. In our case Topic Type Person Tina has to be associated with Topic Type "Note" Keys
 
    [dm_example05.png]
  
- another cool thing we can do is to name the association, because associations are also editable, 
+ another cool thing we can do, is to name the association, because associations are also editable, 
  
  [dm_example06.png]
  
- so that we can actually read the sentence that we have in our mind. As a practice, we will use verbs in infinitive, so that is general, in our case name this association "to have" 
+ so that we can actually read the sentence that we have in our mind. As a practice, we will use verbs in infinitive, so that is general, in our case we name this association "to have".
  
   [dm_example07.png]
 
@@ -140,36 +150,39 @@ so now we can see "Tina has keys"
 
   [dm_example08.png]
   
-We proceed in the same way with the other topic types, we create the association between keys and drawer, and then between drawer and socks. So at the end we will have 
+We proceed in the same way with the other Topic Types, we create the association between keys and drawer, and then between drawer and socks. So at the end we will have 
 
  [dm_example02.png]
  
  
-
 so you are now creating your first topic map, cool!!!
 
 
 *Remember* 
-  All topics and associations exist independently of topic maps and are stored centrally in the corporate memory (CM). 
+[Check]  Topic Types are topics grouped by type.  
+  All Topic Types and Associations exist independently of Topicmaps and are stored centrally in the corporate memory (CM). 
   Topic maps are personalized views of extracts of the CM. Virtually every topic can be made visible in every topic map.
 
 
-Now that you've remembered that DM is more like a brain let's continue, we have a nice photo from Tina. Ok that we want to associate it with her topic Person.
-Go to the toolbar, click on the drop-down menu Create, there you will see "New File Browser", on the Detail panel on the right side you will see the File Browser and you'll recognize your computer's tree structure, browse until you select the photo you are looking for.
+Now that you understand why we say that you can draw your mind, and that DM is more like a brain.
+
+Let's continue, in our story we did not say anything, but the fact is that we have a nice photo from Tina. We want that photo to be related with Tina but is not part of the Topic Type "Person" so, we have to associate a Photo with her Topic Type "Person".
+Since we already have the photo, what we want is to find it on our computer and bring it to our DM world.To do that, go to the toolbar, click on the drop-down menu "Create",  then click "New File Browser", in the Detail panel, on the right side of the screen, you will see the File Browser and you'll recognize your computer's tree structure, browse until you select the photo you are looking for.
 
 
  [dm_example09.png]
 
-You will see that a lot of topics and associations begin to appear with each click you make, it's drawing the path that your brain is making while remembering how did you organize your files till it get's you to the photo. At some point, the canvas may "move down" to find space to draw everything, but one the canvas is infitive so there is no problem of space here :). Once you've selected the photo, you'll see it on the Detail Panel :). Now you can associate it with the topic type Person Tina, right click on the Photo associate and drag to topic type Person-Tina.
+You will see that a lot of Topic Types and Associations begin to appear on each click. It's drawing the path to the file. If it's a long path, at some point, the canvas may "move down" to find space to draw everything, but since the canvas is infitive, there is no problem of space here :). 
+Once you've selected the photo, you'll see it on the Detail Panel :). Now you can associate it with the Topic Type Person Tina, right click on the Photo associate, and drag to Topic Type Person-Tina.
 
 
 *Tip*
   If you want to move the canvas, so that you can see better the topic map, you just have to click on the canvas and drag it untill you locate the topic map where you want.
-
+  You can resize the Panels. You just need to put the mouse on the border between the two panels and when appears (put here the icon) just drag the panel to the size you want.
 
  [dm_example12.png]
 
-Ok, you've made the relation but now there are lot of topic and associations that you don't really want to see, so it's time to Hide things, right click on each of the topic and click on Hide, hidding the topic will hide also the association, if at some point you want to see the topic but not the association, you can right click on the association, click hide and then just the association will be hidden. 
+Ok, you've made the relation but now there are lot of topic and associations that you don't really want to see, so it's time to Hide things, right click on each of the Topic Type and click on Hide, hidding the topic will hide also the Association. If at some point you want to see the Topic Type but not the Association, you can right click on the association, click hide and then just the association will be hidden. 
 
 
  [dm_example13.png]
@@ -182,7 +195,7 @@ Repeat this operation with all the topics that you want to hide and you'll have 
 
 
 **Remember**
-  Topic maps do not show all the information that is there, only the information that is relevant to you in the moment that you are working.
+  Topic maps do not show all the information that is is the DM world, only the information that is relevant to you in the moment that you are working.
   
   
 Tea time!!! It's always good to let everything settle down, why not take a break, get a cup of tea and back in a few minutes
@@ -236,22 +249,22 @@ Ohh, yes we've already have socks in our topic map, so we just need to create a 
 
 [dm_example19.png]
 
-Ok, but I must say that till now we've been cheating a bit, just a bit. We've said that we used topic type Note, as a kind of wildcard, but well that is not 100% fair because a Note is a note, that has a title and a text, if you are thinking of a Note it won't have the form of a sock, it would be confusing. 
+Ok, but I must say that till now we've been cheating a bit, just a bit. We've said that we used Topic Type Note, as a kind of wildcard, but well that is not 100% fair because a Note is a note, that has a title and a text, if you are thinking of a Note it won't have the form of a sock, it would be confusing. 
 
 [dm_example21.png]
 
 *Tip*
-You can resize the Detail Panel. You just need to put the mouse on the border between the two pannels and when appears (put here the icon) just drag the panel to the size you want.
+[Repeta]You can resize the Detail Panel. You just need to put the mouse on the border between the two pannels and when appears (put here the icon) just drag the panel to the size you want.
 
 
-So time to create our own topic type "Socks" and redo things :)
+So time to create our own Topic Type "Socks" and redo things :)
 
-First delete your current "socks", right click on the topic type and click on delete, this means you will delete this instance from the whole of your DM world, you are getting rid of all the socks and their relations, so in general be careful when deleting, but sure you know the dangers of delete word :D
+First delete your current "socks", right click on the Topic Type and click on delete, this means you will delete this instance from the whole of your DM world, you are getting rid of all the socks and their relations, so in general be careful when deleting, but sure you know the dangers of delete word :D
 
 [dm_example23.png]
 
 
-Go to the toolbar menu, down to where it says "New topic type", name it Socks, choose a Data Type, for the moment we'll use Text, done!!
+Go to the toolbar menu, down to where it says "New Topic Type", name it Socks, choose a Data Type, for the moment we'll use Text, done!!
 
 [dm_example24.png]
 
@@ -263,29 +276,29 @@ We will need this instance of socks, to re-do the association between "drawer" (
 
 [dm_example28.png]
 
-Now, everything is nicer, you brain feels happier when seen that "socks" is an instance of "Socks" instead of "Note" :-). But you don't need to see the topic type Socks, so hide it. Right click on the topic type Socks, click on hide, and it and its association will be hidden.
+Now, everything is nicer, you brain feels happier when seen that "socks" is an instance of "Socks" instead of "Note" :-). But you don't need to see the Topic Type Socks, so hide it. Right click on the Topic Type Socks, click on hide, and it and its association will be hidden.
 
 *Remember*
-  When deleting you are actually deleting your topic type instance from the whole DM world, not just from the topic map.
-  You can create New topic types. Your topic type can have one of the five following data types Boolean, Composite, HTML, Number, Text
+  When deleting you are actually deleting your Topic Type instance from the whole DM world, not just from the topic map.
+  You can create New Topic Types. Your Topic Type can have one of the five following data types Boolean, Composite, HTML, Number, Text
   
-Ok, but if we've created a new topic type Socks, maybe we should the same with drawer, finally it is not a Note.
-Let's think a bit what is a drawer, is "something" that is part of a chest of drawers and needs a furniture structure that can hold them. Then we need to create a new topic type "Chest" that is composed by two parts "Drawers" and "Furniture".
+Ok, but if we've created a new Topic Type Socks, maybe we should the same with drawer, finally it is not a Note.
+Let's think a bit what is a drawer, is "something" that is part of a chest of drawers and needs a furniture structure that can hold them. Then we need to create a new Topic Type "Chest" that is composed by two parts "Drawers" and "Furniture".
 To do that you create Chest with dataType Composite (check it in the Detail Panel)
 
 [dm_example29.png]
 
 
-then you can create Drawer and Furniture as topic type text and create also an association with the Chest that is Composition Definition.
+then you can create Drawer and Furniture as Topic Type text and create also an association with the Chest that is Composition Definition.
 
 [dm_example30.png]
 
-Until now, we have just define the idea of what is a drawer as part of a chest, now we want to refer to Tina's drawer full of socks and keys. For that we need to go to the toolbar and select a topic type Drawer, and an instance will be generated, as you can see when looking at the Detail Panel, Tina's drawer is an instantiation of Drawer and DOUBT---> why topic type is also an association?? what did I do???
+Until now, we have just define the idea of what is a drawer as part of a chest, now we want to refer to Tina's drawer full of socks and keys. For that we need to go to the toolbar and select a Topic Type Drawer, and an instance will be generated, as you can see when looking at the Detail Panel, Tina's drawer is an instantiation of Drawer and DOUBT---> why Topic Type is also an association?? what did I do???
 
 [dm_example31.png]
 
 
-Delete time!!! ... now that we have nice drawer's that are part of a chest you can delete the Note-Drawer that we had, we can rid of it and re-do the associations with our new topic type, Tina's drawer.
+Delete time!!! ... now that we have nice drawer's that are part of a chest you can delete the Note-Drawer that we had, we can rid of it and re-do the associations with our new Topic Type, Tina's drawer.
 
 *Tip*
 
