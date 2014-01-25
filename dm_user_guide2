@@ -78,7 +78,7 @@ Before we have said that in DM we could see what is in our mind, let's check how
 ****Our story is
 
         Once Tina told us that she had decided to put the spare keys in a drawer that contains socks. 
-        That reminds us of Greg, who works with Tina in the Bookshop, and who loves weird socks.
+        That reminds us of Greg, who works with Tina in the Bookshop, and who loves fancy socks.
 
 Then for Tina the right place to put the keys is with the socks, let's transform our story in simple sentences, with subject and verb.
 
@@ -232,9 +232,13 @@ If you click on Folder, you will see that it's Data Type is Composite, which mea
   Association Type Aggregation establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B is *not* deleted.
   Association Type Instantiation is a specific Topic Type
   
-Now take another sip of tea and let's continue.
+[cup_of_tea_bagieu-bio.jpg] Now take another sip of tea and let's continue.
 
-Thinking about socks, you've remembered that Tina had a nice friend with whom she works, Greg, who used really fancy socks, can't forget those one that stared at you, and he worked in a Bookshop. So we have
+Ok, until now, we've just drawn the first part of our story, but we had the second part
+
+"That reminds us of Greg, who works with Tina in the Bookshop, and who loves fancy socks."
+
+So we let's do the same thing that we did in the beginning
 
 Greg is a friend of Tina
 Greg has fancy socks
@@ -242,8 +246,7 @@ Greg works in a Bookshop
 
 Let's just define that info in our topic map.
 
-Go to the toolbar, create Person, there you can fill in the Name with Greg and any other info that you may consider interesting.
-Then right click on Greg and create the association by dragging the line to Tina. As you know if you want to can name the association, we've named it "to be friends".
+Go to the toolbar, create Person, there you can fill in the Name with Greg and any other info that you may consider interesting. Then right click on Greg and create the association by dragging the line to Tina. As you know if you want to can name the association, we've named it "to be friends".
 
 
 [dm_example18.png]
@@ -257,22 +260,17 @@ Ok, but I must say that till now we've been cheating a bit, just a bit. We've sa
 
 [dm_example21.png]
 
-*Tip*
-[Repeta]You can resize the Detail Panel. You just need to put the mouse on the border between the two pannels and when appears (put here the icon) just drag the panel to the size you want.
-
-
 So time to create our own Topic Type "Socks" and redo things :)
 
-First delete your current "socks", right click on the Topic Type and click on delete, this means you will delete this instance from the whole of your DM world, you are getting rid of all the socks and their relations, so in general be careful when deleting, but sure you know the dangers of delete word :D
+First delete your current "socks", right click on the Topic Type and click on delete, this means you will delete this instance from the *whole* of your DM world, you are getting rid of all the socks and their relations, so in general be careful when deleting, but sure you know the dangers of "delete" :D
 
 [dm_example23.png]
-
 
 Go to the toolbar menu, down to where it says "New Topic Type", name it Socks, choose a Data Type, for the moment we'll use Text, done!!
 
 [dm_example24.png]
 
- now you have your class Socks, remember that the class is the abstract concept, so now you have defined the idea "Socks", so if you check Create drop down menu, you will see the new type that you just created "Socks", so if you click on it you will get an instance of socks, this are your specific socks :)
+ now you have your Type "Socks", remember that the Type is the abstract concept, so now you have defined the idea "Socks", so if you check Create drop down menu, you will see the new Type that you just created "Socks", so if you click on it you will get an instance of socks, this are your specific fancy socks :)
  
  [dm_example26.png] 
  
@@ -286,7 +284,7 @@ Now, everything is nicer, you brain feels happier when seen that "socks" is an i
   When deleting you are actually deleting your Topic Type instance from the whole DM world, not just from the topic map.
   You can create New Topic Types. Your Topic Type can have one of the five following data types Boolean, Composite, HTML, Number, Text
   
-Ok, but if we've created a new Topic Type Socks, maybe we should the same with drawer, finally it is not a Note.
+Ok, but if we've created a new Topic Type Socks, maybe we should do the same with drawer, finally it is not a Note.
 Let's think a bit what is a drawer, is "something" that is part of a chest of drawers and needs a furniture structure that can hold them. Then we need to create a new Topic Type "Chest" that is composed by two parts "Drawers" and "Furniture".
 To do that you create Chest with dataType Composite (check it in the Detail Panel)
 
@@ -295,9 +293,15 @@ To do that you create Chest with dataType Composite (check it in the Detail Pane
 
 then you can create Drawer and Furniture as Topic Type text and create also an association with the Chest that is Composition Definition.
 
+Association Type Composition establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B *is* deleted.
+
+[check] so in our case, that means that if we delete the Drawer we will delete the Chest of Drawers
+
 [dm_example30.png]
 
-Until now, we have just define the idea of what is a drawer as part of a chest, now we want to refer to Tina's drawer full of socks and keys. For that we need to go to the toolbar and select a Topic Type Drawer, and an instance will be generated, as you can see when looking at the Detail Panel, Tina's drawer is an instantiation of Drawer and DOUBT---> why Topic Type is also an association?? what did I do???
+Until now, we have just defined the idea of what is a drawer as part of a chest, now we want to refer to Tina's drawer full of socks and keys. For that we need to go to the toolbar and select a Topic Type Drawer, and an instance will be generated, as you can see when looking at the Detail Panel, Tina's drawer is an instantiation of Drawer 
+
+[DOUBT] ---> why Topic Type is also an association?? what did I do???
 
 [dm_example31.png]
 
@@ -307,15 +311,19 @@ Delete time!!! ... now that we have nice drawer's that are part of a chest you c
 *Tip*
 
 Association lines colors
-  Grey - Association which is
-  Light blue - Instantiation that means
-  Green - Aggregation is
-  Red - Composition definition is
+  Grey - Association which is the relation between two Topic Types
+  Light blue - Instantiation that means a *specific* Topic Type
+  Green - Association Type Aggregation establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B is *not* deleted.
+  Red - Association Type Composition establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B *is* deleted.
   
   
+
   
-  
-All this talking about Tina's socks, and suddenly we realize that tomorrow is her birthday, upss!!! I you didn't get her present, though you more or less know that she likes graphic novels, so....a bookshop should be the place to go.
+All this talking about Tina's socks, and suddenly we realize that tomorrow is her birthday, upss!!! and you didn't get her present, though you more or less know that she likes graphic novels, so....a bookshop should be the place to go.
+
+In the second part of the guide we will model a Bookshop, with it's book, audiobooks, workers, etc...
+
+[cup_of_tea_bagieu-bio.jpg] But in between another sip of tea
   
 
 
