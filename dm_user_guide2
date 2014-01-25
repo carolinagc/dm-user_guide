@@ -316,9 +316,7 @@ Association lines colors
   Green - Association Type Aggregation establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B is *not* deleted.
   Red - Association Type Composition establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B *is* deleted.
   
-  
-
-  
+    
 All this talking about Tina's socks, and suddenly we realize that tomorrow is her birthday, upss!!! and you didn't get her present, though you more or less know that she likes graphic novels, so....a bookshop should be the place to go.
 
 In the second part of the guide we will model a Bookshop, with it's book, audiobooks, workers, etc...
