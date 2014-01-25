@@ -293,7 +293,7 @@ To do that you create Chest with dataType Composite (check it in the Detail Pane
 
 then you can create Drawer and Furniture as Topic Type text and create also an association with the Chest that is Composition Definition.
 
-Association Type Composition establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B *is* deleted.
+Association Type Composition establishes an association so that Topic Type B is associated with(is part of) Topic Type A, but that when Topic Type A is deleted, Topic Type B *is* deleted.
 
 [check] so in our case, that means that if we delete the Drawer we will delete the Chest of Drawers
 
@@ -311,10 +311,17 @@ Delete time!!! ... now that we have nice drawer's that are part of a chest you c
 *Tip*
 
 Association lines colors
-  Grey - Association which is the relation between two Topic Types
-  Light blue - Instantiation that means a *specific* Topic Type
-  Green - Association Type Aggregation establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B is *not* deleted.
-  Red - Association Type Composition establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B *is* deleted.
+  Grey - Association 
+  Light blue - Instantiation that is a *specific* Topic Type
+  Green - Aggregation Definition,the associated elements won't be deleted if the whole is deleted
+  Red - Composition Definition, the associated elements will be deleted if the whole is deleted
+  
+  
+ *Remember*
+   Association which is the relation between two Topic Types
+   Asosciation Type Instantiation that means a *specific* Topic Type
+   Association Type Aggregation Definition establishes an association so that Topic Type B is associated with(is part of) Topic Type A, but that when Topic Type A is deleted, Topic Type B is *not* deleted.
+   Association Type Composition Definition establishes an association so that Topic Type B is associated with(is part of) Topic Type A, but that when Topic Type A is deleted, Topic Type B *is* deleted.
   
     
 All this talking about Tina's socks, and suddenly we realize that tomorrow is her birthday, upss!!! and you didn't get her present, though you more or less know that she likes graphic novels, so....a bookshop should be the place to go.
