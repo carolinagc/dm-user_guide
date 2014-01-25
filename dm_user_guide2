@@ -3,34 +3,40 @@
 
 Since user guides tend to be boring to write and then boring to read, we've tried to have fun writing this one and hopefully you'll have also fun reading it, in between you'll discover how Deepamehta works!
 
-**Just imagine the computer would let you do what you want....
+First, we will set up a story, an unimportant and trivial one, coming from daily thoughts, which will give us the excuse to explore the basic usage of DM framework, then we will set up another story, with a context that probably resemble more a user case.
 
-Normally when we think about things we make certain relations that for us are obvious, of course that I put the spare keys with the socks and  obviously the health care card is in the fridge  .. we know that we are not going to leave home without socks, so each time you pick some socks you will see where the spare keys are and since the fridge is full of healthy stuff that is the right place for the health care card to be.
-Each one of us, make our own connections full of sense to us, so once we have made this connections we don't have to make an effort to think where to look for the keys or the health care card, our brain is quite happy not to be stressed by the fact of having to search all over the place when we look for the spare keys set or the health care card, it's able to go automatically to the right place. Less stress for the brain, less stress for us, the happier we are :-)
+**Just imagine the computer would follow your thoughts....
 
-Probably you've chosen your connections based on some kind of situation, the last time you could not enter the house because you forgot the keys, you thought that if they had been with the socks you would not have forgotten them, clic! connection done.
+Normally when we think about things, we make certain relations that for us are obvious, of course that I put the spare keys with the socks and  obviously the health care card is in the fridge  .. we know that we are not going to leave home without socks, so each time you pick some socks you will see where the spare keys are and since the fridge is full of healthy stuff that is the right place for the health care card to be.
 
-Also there is no right way of establishing the connections, we use the one that fits for us, cool and happy, others will find other ways, sometimes you will share habits and you may change yours for something else that you consider better. When you live with people you find out that those connections are created collectively.
+We establish our own connections, full of sense to us, so once we've established these connections we don't have to make an effort to think, for example to where to look for the keys or the health care card, our brain is quite happy not to be stressed by the fact of having to search all over the place when we look for the spare keys set or the health care card, it's able to go automatically to the right place. Less stress for the brain, less stress for us, the happier we are :-)
 
-Now, comes the computer, this kind of black box that tells us how to organize things, nobody has asked us if that way makes sense for us,
-you have to store you images in the images folder, well not quite, you can do it somewhere else but inside you user space, if you put them inside the configuration folders, probably at some point someone will yell at you. You also keep seeing all sort of files with strange names all over the place, that annoys you, you don't want to see them and you want to have them all together somewhere, if you proceed to do so probably the next time you try to start your computer it won't start, those strange files were configuration files and you'll think oh shi***!!!
+Probably you've established your connections based on some kind of situation, the last time you could not enter the house because you forgot the keys, you thought that if they had been with the socks you would not have forgotten them, clic! connection done.
 
-But lets for a moment imagine that we don't have to care where the computer considers that the right place is, and that we are just able to make our own connections between the files that are in our computer. Imagine that we don't have to navigate through endless trees of folders to find things, having to make all kind of forced thinking to remember how once you decided to structure the tree.
+Also there is no right way of establishing the connections, we use the one that fits for us, cool!, others will find other ways, sometimes you will share habits and you may change yours for something else that you consider better. When you share a space with people you find out that those connections are created collectively.
+
+So, up to here is just to try to reflect how Humans think, how do we daily do things. Now, comes the computer, this kind of black box that tells us how to organize things, nobody asked us if it made sense to us, so somehow we behave as peripherals of the computer. We store images in the Images folder, well some may be courageous and do it somewhere else but inside the user space, if you put them inside the configuration folders, probably at some point someone will yell at us. 
+
+If we feel annoyed because we keep seeing all sort of files with strange names all over the place, and decide to tidy up and  have them all together in one single place, probably the next time the computer is restarted it won't do it, those strange files were configuration files were meant to be in the place they were, then will come the "Oh, shi***!!!".
+
+If we, as main user of our own computer, most of the times don't know where things are, depending on the situation we've decided different ways of ordering, categorizing things, generally we remember the situation but not the way we decided to order things. Ok, you can search for things, which mean that you have to remember the name of the file, uff..a lot of work is being done for just a simple operation.
+
+Lets for a moment imagine that we are able to establish our own connections between the files that are in our computer. Imagine that we don't have to navigate through endless trees of folders to find things, or the names of files to do a optimized search.
 
 Imagine  
-  you could just define your own semantic relations
-  that all the files could be treated it in the same way
-  you could relate any kind of file with any kind of other file
-  that you stop talking on terms of files and start talking about concepts
-  that you could establish relations between one concepts on your own way
+  we could relate any kind of file with any kind of other file, regardless of being an image, mail, book, bookmark, video
+  we could retrieve information based on the situations that provided them
+  we could define how to order things based on our own semantic relations
+  we could forget about formats and just care about content and its properties
+  
 
-maybe then you could see what is in your mind, it sounds kind of cool, right? well that is what Deepamehta enables you to do, to forget about a working context based on applications and tree structured folders and to draw your way of thinking, well at least is on it's way to do it :-) ... 
+maybe then we could see what is in our mind. To visualize our mind, it sounds kind of cool, right? well that is what Deepamehta enables you to do, to forget about a working context based on applications, file formats, tree structured folders and to draw our way of thinking, well at least is on it's way to do it :-) ... 
 
 ** it sounds confusing, how can I draw my mind?
 
 Yes, maybe at first it almost sounds like science-fiction, but that is how things evolve, first imagine them, then do them, as if it were that easy :-D
 
-But let's stop talking and begin to see how DM works.
+But let's stop talking and begin to see what we mean by drawing our mind via understanding how DM works.
 
 In the guide we won't cover the installation process, because that is already very good explained in the README file [https://github.com/jri/deepamehta#readme]. Here we will just remind you the way to start DM, it depends on your platform
 
@@ -45,21 +51,27 @@ So now you should be seeing this
 
 Just to dive better in DM, a suggestion is to set your browser to full screen, so you enter in DM mode ;-)
 
-We are not going to log in for the moment, so let's see what's on the screen. The screen is divided in three parts, a toolbar on the top, a right panel and a left panel. This screen divided in three is called the Deepamehta Webclient, and is the standard user interface for DM.
+We are not going to log in for the moment, so let's see what's on the screen. The screen is divided in three parts, 
+    a toolbar on the top, 
+    a right panel that is called Topic map
+    a left panel that is called Detailed Panel
+    
+This screen divided in three is called the Deepamehta Webclient, and is the standard user interface for DM.
 
 Before explaining each of them, we'll introduce a few DM concepts, the basic ones, the ones you are going to use all the time.
 
-Workspace, which is the more general container of the information that you are going to have. You will be able to define as many       Workspaces as you want, you will be able to share "things" between workspaces. 
+Workspace, which is the more general container of the information that you are going to have. You will be able to define as many Workspaces as you want, [in future releases, you will be able to share "things" between workspaces]
 
 Topic map, is part of a Workspace and for the moment let's say is the visualization of the information that is important to you in the current moment.
 
-So the toolbar in the top part  allows you to select and perform various operations. If you are not logged in,  you will be able to select your Workspace, your topic map, to search by name or by type an item that you know, access the help and the link to log in.
+So the toolbar in the top part allows you to select and perform various operations. If you are not logged in,  you will be able to select a Workspace, a topic map, to search by name an item that you know or by type, access the help and the link to log in.
 
-Summing up the panel on the left hand side will be where you will visualize your topic maps and on the right hand side, you will see the content and details of the topic map.
+Summing up the panel on the left hand side will be where you will visualize topic maps and on the right hand side, you will see the content and details of the topic map.
 
-If you are not logged in, you will see the last topic map you were and you will be able to switch to different topic maps or workspaces and also to search for any kind of item that is in your DM world.
+If you are not logged in, you will see the last topic map you were in and you will be able to switch to different topic maps or workspaces and also to search for any kind of item that is in your DM world.
 
 Now we'll log in to do some stuff, click on the login link and introduce "admin" as user and leave the password blank
+
 
 Before we have said that in DM we could see what is in our mind, let's check how can we do that. We were saying that for us the right place to put the keys is with the socks, let's build a simple sentence with it's subject and verb.
 
@@ -286,7 +298,7 @@ Association lines colors
   
   
   
-  
+All this talking about Tina's socks, and suddenly we realize that tomorrow is her birthday, upss!!! I you didn't get her present, though you more or less know that she likes graphic novels, so....a bookshop should be the place to go.
   
 
 
