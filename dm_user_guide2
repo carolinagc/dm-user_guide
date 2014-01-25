@@ -218,20 +218,19 @@ Remember
 
 Looking closer the Detail Panel, we can see the Role Types, the photo has as Role Type "Child" and the folder has as Role Type "Parent", so in our case Aggregation would mean that if we delete our photo from the folder, the folder won't be deleted.
 
-
-Next thing, if you click on the folder itself, and you scroll down until you see Topic Type, you'll see it's a Folder and the Association Type that has been created is called "Instantiation".In case someone is not familiar with the term instantiation, it means that is a specific folder, there is the concept "Folder" and then there is the specific folder that you create with a specific name.  
+Next thing, if you click on the folder itself, and you scroll down until you see Topic Type, you'll see it's a Folder and the Association Type that has been created is called "Instantiation". In case someone is not familiar with the term instantiation, it means that is a specific folder, there is the concept "Folder" and then there is the specific folder that you create with a specific name.
 
 [dm_example16.png]
 
-Then if you click on Folder(here goes blue icon), you will see that it's Data Type is Composite, which means that is something composed of other items. In the case of "Folder" is a Topic Type composed of "Folder content"+ "Folder name"+"Path", so each Folder Topic Type will have a name, a content and a path.
+If you click on Folder, you will see that it's Data Type is Composite, which means that is something composed of other items. In the case of "Folder" is a Topic Type composed of "Folder content"+ "Folder name"+"Path", so each Folder Topic Type will have a name, a content and a path.
 
 [dm_example17.png]
 
 
 *Remember*
-  Data Type Composite is
-  Association Type Aggregation is
-  Association Type Instantiation is
+  Data Type Composite is a Topic Type composed by other Topic Types
+  Association Type Aggregation establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B is *not* deleted.
+  Association Type Instantiation is a specific Topic Type
   
 Now take another sip of tea and let's continue.
 
