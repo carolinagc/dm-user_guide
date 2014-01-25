@@ -204,21 +204,26 @@ Tea time!!! It's always good to let everything settle down, why not take a break
 
 Now, after a break, let's go back a bit, and check a couple of things before continuing.
 
-We've said that our topic map shows only what we want to see depending on the moment, so let's make visible again the topics and relations that appeared when we added Tina's photo to the topic map. The photo was inside a folder, true? so click on the photo, the move your eyes to the Detail Panel, there we have quite a lot of information, that we are going to be understading little by little.
-On the detail panel scroll down (if necesary) untill you see a folder icon which is called like the folder where your photo was stored.
-In our case Deepamehta, click on the folder, and alehop!!! now it becomes visible what was hidden, the folder and its relation with the photo file of Tina.
+We've said that our Topicmap shows only what we want to see depending on the moment, so let's make visible again the Topic Types and Associations that appeared when we added Tina's photo to the Topicmap. The photo was inside a Folder, true? so click on the photo, the move your eyes to the Detail Panel, there we have quite a lot of information, that we are going to be understading little by little.
+
+On the Detail Panel scroll down (if necesary) untill you see a folder icon which is called like the folder where your photo was stored.
+In our case the name of the folder where we stored the  images is  "Deepamehta", click on the folder, and alehop!!! now it becomes visible what was hidden, the folder and its relation with the photo file of Tina.
 
 [dm_example15.png]
 
-Maybe you've already noticed that the association has a different color, now is green, while the ones that we've been creating was grey. Appart from beauty reason, it means that is a different type of relation, if you click on the association, you'll see that the association Type is Aggregation, while the others the association type was Association.
+Maybe you've already noticed that the association has a different color, now is green, while the other ones that we've been creating were grey. Appart from aesthetic reasons, it means that is a different type of Association, if you click on the association, you'll see the Association Type is Aggregation, while the others the Association Type was Association. 
 
-Association Type Aggregation means 
+Remember
+  Association Type Aggregation establishes an association so that Topic Type B is associated with Topic Type A, but that when Topic Type A is deleted, Topic Type B is *not* deleted.
 
-Now if you click on the folder itself, and you scroll down until you see Topic Type, you'll see it's a Folder and the Association Type that has been created is called "Instantiation".In case someone is not familiar with the term instantiation, it means that is a specific folder, there is the concept "Folder" and then there is the specific folder that you create with a specific name.  
+Looking closer the Detail Panel, we can see the Role Types, the photo has as Role Type "Child" and the folder has as Role Type "Parent", so in our case Aggregation would mean that if we delete our photo from the folder, the folder won't be deleted.
+
+
+Next thing, if you click on the folder itself, and you scroll down until you see Topic Type, you'll see it's a Folder and the Association Type that has been created is called "Instantiation".In case someone is not familiar with the term instantiation, it means that is a specific folder, there is the concept "Folder" and then there is the specific folder that you create with a specific name.  
 
 [dm_example16.png]
 
-Then if you click on Folder(here goes blue icon), you will see that it's Data Type is Composite, which means that is something composed of other things. In the case of "Folder" is a topic composed of "Folder content"+ "Folder name"+"Path", so each Folder topic will have a name, a content and a path.
+Then if you click on Folder(here goes blue icon), you will see that it's Data Type is Composite, which means that is something composed of other items. In the case of "Folder" is a Topic Type composed of "Folder content"+ "Folder name"+"Path", so each Folder Topic Type will have a name, a content and a path.
 
 [dm_example17.png]
 
