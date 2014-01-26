@@ -326,11 +326,48 @@ Association lines colors
     
 All this talking about Tina's socks, and suddenly we realize that tomorrow is her birthday, upss!!! and you didn't get her present, though you more or less know that she likes graphic novels, so....a bookshop should be the place to go.
 
-In the second part of the guide we will model a Bookshop, with it's book, audiobooks, workers, etc...
+In the second part of the guide we will model a Bookshop, with it's book, audiobooks, employees, etc...
 
 [cup_of_tea_bagieu-bio.jpg] But in between another sip of tea
-  
 
+
+Ok then, time to look for a graphic novel in a bookshop, so we will have to model
+  A bookshop
+  A employee
+  A book
+  A graphic novel
+  An audiobook
+
+
+We could say that
+
+A bookshop is a institution full of books & audiobooks, which has employees
+An employee is a person that works at an institution
+A book is a thing which is composed by a Title, Author, Text, ISBN
+A graphic novel is a type of book
+An audiobook is a book that has been recorded
+
+
+Let's go!! Since we know that Greg works in a bookshop, we decide to go to that one, so we already had the Free Bookshop, defined. But a bookshop has many, many books. 
+
+Let's draw the book, for that we create a New Topic Type "Book" which DataType is Composite, because is going to be composed of a title, an author, a text, an ISBN. Then, since previously we had used Notes, we know that there is already a Topic Type "Title", and a Topic Type "Text", we look for them searching by Type and we add them to the Topicmap
+
+[dm_example31.png]
+
+[Warning] user cannot use the mouse to scroll down the list and then select the Topic Type, because it dissapears, so the only way is to select the Topics is using the keyboard.
+
+but mmmm ...wait, the topic map is getting too big and messy, now we don't care too much about where Tina puts her spare keys, so now that we are in a different situation, let's create a new Topicmap that is called Bookshop
+
+[dm_example33.png]
+
+Nice clear map, but we had a couple of things done, so let's make them visible. We said before that every Topic Type that is created in the DM world can be visibilized in any Topicmap, we only need to bring it back.
+
+for example we search for Topic Type Institution, 
+[dm_example35.png]
+
+in the Detail Panel we see "Free Bookshop", we click on it, pop! in the left panel, also in the Detail Panel we see that has associated a Topic Type "Book", click, green line then is an Aggregation, which means that even is all the books are removed(deleted) the Bookshop will stay :D, then we see that a Book has two Topic Types associated Title, Text, clic, clic and ...
+
+[dm_example36.png]
 
 
 
